@@ -14,15 +14,17 @@
     <title>Food Network</title>
   </head>
   <body>
+    <!-- navbar -->
     <div class="navbar">
       <div class="item">
         <a href="#home">Home</a>
-        <a href="#news">About me</a>
-        <a href="#contact">Recipies</a>
+        <a href="#about-me">About me</a>
+        <a href="#recipies">Recipies</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
     <!-- first section -->
-    <section class="container-flex">
+    <section class="container-flex" id="home">
       <div class="first-half half-width">
         <h1>
           <span class="skip"> Skip</span> The Diet,<br />
@@ -37,7 +39,7 @@
       </div>
     </section>
     <!-- second section -->
-    <section class="container-flex second-section">
+    <section class="container-flex second-section" id="about-me">
       <div class="half-width person-image">
         <img src="./images/female/Person Image.png" alt="" />
       </div>
@@ -53,7 +55,7 @@
       </div>
     </section>
     <!-- third section -->
-    <section class="third-section">
+    <section class="third-section" id="recipies">
       <div class="my-recipie">
         <h1>My Recipies</h1>
         <p>
@@ -66,7 +68,7 @@
         <div class="recipie-item">
           <img src="./images/food/Project Cover1.jpg" alt="" />
           <div class="container">
-            <h2>SUMMER PROTEIN</h2>
+            <h2>Summer Protein</h2>
             <p>
               All ,natural chicken, roasted tomatoes,marinated mushrooms
               ,egg,tomato souch, spinach , kale, almonds , hempseedblend,
@@ -77,7 +79,7 @@
         <div class="recipie-item">
           <img src="./images/food/Project Cover.png" alt="" />
           <div class="container">
-            <h2>TROPICAL ACAI</h2>
+            <h2>Tropical Acai</h2>
             <p>
               Acai blended with banana and blueberries, topped with mango,
               pineapple, strawberries and shredded coconut 450 cals, 2g protein,
@@ -88,7 +90,7 @@
         <div class="recipie-item">
           <img src="./images/food/Project Cover.jpg" alt="" />
           <div class="container">
-            <h2>SESAME CRUNCH</h2>
+            <h2>Sesame Crunch</h2>
             <p>
               Lean braised pork, snap peas, rainbow carrots, green onion, napa
               cabbage, pickled red onion, toasted almonds and sesame seed,
@@ -114,6 +116,32 @@
         <span class="follower-span">Dribble Short Likes</span>
       </div>
     </div>
+    <!--  -->
+    <section class="form-div" id="contact">
+      <h1>Contact</h1>
+      <form>
+        <label for="fname">First Name:</label>
+        <input
+          type="text"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name:</label>
+        <input
+          type="text"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label>Email:</label>
+        <input type="email" placeholder="Email">
+        <label>Message:</label>
+        <textarea name="Message" id="" cols="30" rows="10"></textarea>
+        <a href="#">Submit</a>
+      </form>
+    </section>
+    <!-- footer -->
     <footer>
       <h3><span class="food">FOOD</span>&nbspNETWORK</h3>
       <p>Eat healthy to live healthy,Live halthy to live happy</p>
