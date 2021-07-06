@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.container-flex {
+  display: flex;
+  margin-bottom: 100px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.healthy-image img {
+  width: 80%;
+}
+.half-width p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+h1 {
+  font-size: 3rem;
+}
+.skip {
+  color: #fb904a;
+}
+.link-button {
+  padding: 15px 30px;
+  background-image: linear-gradient(#fb904a, #fc5934);
+  /* background-color: #fc5934; */
+  border-radius: 30px;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.first-half {
+  margin-top: 250px;
+}
+.person-image img {
+  width: 50%;
+}
+.second-section {
+  background-image: url(./images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.second-half {
+  margin-top: 150px;
+}
+.recipie-item {
+  width: 300px;
+  margin-left: 12%;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px #d8d8d9;
+  /* border: 5px solid orangered; */
+}
+.recipie-item img {
+  width: 100%;
+}
+.container {
+  padding: 5px 16px;
+}
+.my-recipie {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.follower {
+  display: flex;
+  height: auto;
+  margin-left: 12%;
+  width: 1400px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px #d8d8d9;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.follower-item {
+  margin-left: 14%;
+  margin-right: 6%;
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+.follower-item p {
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+.food {
+  color: #f17d42;
+}
+footer h3 {
+  display: inline-block;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  color: #5b5b5b;
+}
+footer p {
+  color: #d8d8d9;
+}
