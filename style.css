@@ -93,11 +93,12 @@ h1 {
   font-weight: bold;
 }
 footer {
-  height: 150px;
+  height: 180px;
   width: 100%;
   background-color: black;
   text-align: center;
   color: white;
+  /* margin-bottom: 20px; */
 }
 .food {
   color: #f17d42;
